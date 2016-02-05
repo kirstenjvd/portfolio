@@ -1,0 +1,363 @@
+/* Retina Images */
+.fc:before, .fc:after {
+  content: " ";
+  display: table; }
+.fc:after {
+  clear: both; }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+.hide {
+  display: none !important; }
+
+.show {
+  display: block !important; }
+
+.invisible {
+  visibility: hidden; }
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important; }
+
+html {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body, html {
+  height: 100%; }
+
+.bg-container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background: #fff; }
+  .bg-container .inner-container {
+    background: url(../images/home_bg2.jpg) no-repeat center top;
+    background-size: cover;
+    opacity: 0.65;
+    height: 100%; }
+
+.homepage .section {
+  margin-bottom: 300px; }
+
+.section {
+  position: relative;
+  z-index: 3;
+  background: #fff;
+  padding: 60px 0 20px 0; }
+  .section p {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 550px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif; }
+  .section h2 {
+    color: #249FC9;
+    border-bottom: 1px solid #AEE6F3;
+    padding-bottom: 2px;
+    font-size: 26px;
+    letter-spacing: .025em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400; }
+  .section .inner-container {
+    padding-bottom: 40px; }
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+/* Custom page header */
+.header {
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  background: white;
+  /* Make the masthead heading the same height as the navigation */ }
+  .header img {
+    padding-top: 20px; }
+  .header li:first-child a {
+    margin-left: 0; }
+  .header li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #3F3F3F;
+    letter-spacing: .15em; }
+    .header li a:hover {
+      color: #249FC9; }
+  .header ul {
+    list-style: none;
+    padding-top: 12px; }
+  .header li {
+    display: inline-block;
+    color: #ccc; }
+  .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px; }
+  .header .logo {
+    padding: 12px 0;
+    max-width: 216px;
+    display: block; }
+    .header .logo img {
+      max-width: 100%; }
+
+/* Custom page footer */
+.section footer {
+  padding-top: 76px;
+  color: #000;
+  font-size: 12px; }
+  .section footer p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0 0 12px; }
+  .section footer .footer-links a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    padding: 0 8px 0 0;
+    border-right: 1px solid #000;
+    margin-right: 8px; }
+    .section footer .footer-links a:hover {
+      background: none;
+      color: #fff; }
+  .section footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 3px 0 0 0; }
+    .section footer ul:before, .section footer ul:after {
+      content: " ";
+      display: table; }
+    .section footer ul:after {
+      clear: both; }
+  .section footer li {
+    float: left; }
+    .section footer li:last-child a {
+      margin-right: 0;
+      border-right: none; }
+
+.container-narrow > hr {
+  margin: 30px 0; }
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  padding-top: 50px;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  min-height: 300px !important; }
+  .jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px; }
+  .jumbotron h1.lead {
+    color: #fff;
+    font-size: 146px;
+    line-height: 40px;
+    font-weight: 400;
+    padding: 8% 0;
+    margin: 0 auto;
+    text-shadow: 1px 0px 13px rgba(0, 0, 0, 0.75);
+    top: 35%;
+    position: relative;
+    letter-spacing: .025em;
+    font-family: 'Euphoria Script', cursive; }
+    .jumbotron h1.lead span {
+      font-weight: 500;
+      color: #fff; }
+
+.career-tout.section {
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+  background: rgba(36, 159, 201, 0.7);
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 53px 0 0; }
+  .career-tout.section h2 {
+    color: #FFF;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    font-size: 28px; }
+  .career-tout.section a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    border: 2px solid #000;
+    padding: 10px 20px; }
+    .career-tout.section a:hover {
+      transition: .5s all;
+      background: rgba(255, 255, 255, 0.9); }
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0; }
+  .marketing p + h4 {
+    margin-top: 28px; }
+
+@media screen and (max-width: 768px) {
+  /* Space out the masthead */
+  body {
+    height: auto; }
+
+  .bg-container {
+    display: none; }
+
+  .header {
+    text-align: center;
+    padding-bottom: 0px; }
+    .header ul {
+      float: none;
+      padding: 0;
+      display: inline-block; }
+    .header li a {
+      margin-left: 8px; }
+    .header .logo {
+      float: none;
+      padding: 15px 0 0;
+      display: inline-block; }
+    .header .wrapper {
+      padding: 0; }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+    background: url(../images/home_tout.jpg) no-repeat center top;
+    background-size: cover; }
+    .jumbotron h1.lead {
+      font-size: 27px;
+      padding-top: 70px;
+      line-height: 32px; }
+
+  .career-tout.section {
+    position: relative; }
+    .career-tout.section .wrapper {
+      padding-right: 10px;
+      padding-left: 10px; }
+    .career-tout.section h2 {
+      font-size: 24px; }
+    .career-tout.section a.btn-primary {
+      font-size: 18px;
+      padding: 8px 10px; }
+
+  .homepage .section {
+    margin-bottom: 0;
+    padding: 20px 0 20px; }
+    .homepage .section .inner-container p {
+      font-size: 20px; }
+    .homepage .section .inner-container {
+      padding-bottom: 0; }
+
+  .section footer {
+    text-align: center; }
+
+  .section footer .footer-links {
+    float: none;
+    display: inline-block; }
+
+  .section footer p.copyright {
+    font-size: 10px;
+    text-align: center;
+    float: none; } }
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0; }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px; }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0; } }
+.services .inner-col {
+  width: 50%; }
+
+.services .row {
+  display: table;
+  min-height: 300px; }
+  .services .row .inner-col {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    line-height: 22px;
+    padding: 20px; }
+    .services .row .inner-col h3 {
+      max-width: 500px;
+      width: 100%; }
+    .services .row .inner-col.fl h3 {
+      float: right; }
+  .services .row .row-content ul {
+    max-width: 500px;
+    margin: 0; }
+  .services .row .fl.row-content ul {
+    float: right; }
+  .services .row:last-of-type {
+    min-height: 0; }
+
+.secondary {
+  margin-bottom: 300px; }
+  .secondary .section {
+    padding-bottom: 60px; }
+  .secondary div + h2 {
+    margin-top: 40px; }
+  .secondary h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #249FC9; }
+  .secondary h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: #000; }
+  .secondary .jumbotron h1.lead,
+  .secondary h1 {
+    font-size: 50px; }
