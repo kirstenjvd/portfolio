@@ -21,7 +21,7 @@
           <h2>Interested in making your website mobile friendly? </h2>
           <a href="mailto:kirsten.jvd@gmail.com" class="btn-primary">Contact me! </a>
           <footer class="fc">
-            <p class="fr copyright">&copy;copyright 2016</p>
+            <p class="copyright">&copy;copyright 2016</p>
           </footer>
         </div>
 
