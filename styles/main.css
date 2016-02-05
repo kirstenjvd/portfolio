@@ -56,7 +56,7 @@ body, html {
   z-index: 1;
   background: #fff; }
   .bg-container .inner-container {
-    background: url(../images/home_bg2.jpg) no-repeat center top;
+    background: #0F9194;
     background-size: cover;
     opacity: 0.65;
     height: 100%; }
@@ -68,20 +68,22 @@ body, html {
   position: relative;
   z-index: 3;
   background: #fff;
-  padding: 60px 0 20px 0; }
+  padding: 60px 0 100px 0; }
   .section p {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 34px;
     max-width: 550px;
     font-weight: 300;
-    font-family: 'Roboto Condensed', sans-serif; }
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin: 0 auto; }
   .section h2 {
-    color: #249FC9;
-    border-bottom: 1px solid #AEE6F3;
+    color: #0F9194;
     padding-bottom: 2px;
-    font-size: 26px;
+    font-size: 30px;
+    text-align: center;
     letter-spacing: .025em;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 400; }
   .section .inner-container {
@@ -109,7 +111,8 @@ body, html {
   background: white;
   /* Make the masthead heading the same height as the navigation */ }
   .header img {
-    padding-top: 20px; }
+    padding-top: 20px;
+    padding-bottom: 20px; }
   .header li:first-child a {
     margin-left: 0; }
   .header li a {
@@ -192,45 +195,49 @@ body, html {
   .jumbotron h1.lead {
     color: #fff;
     font-size: 146px;
-    line-height: 40px;
+    line-height: 1;
     font-weight: 400;
-    padding: 8% 0;
+    padding-top: 200px;
     margin: 0 auto;
-    text-shadow: 1px 0px 13px rgba(0, 0, 0, 0.75);
-    top: 35%;
     position: relative;
     letter-spacing: .025em;
-    font-family: 'Euphoria Script', cursive; }
+    font-family: 'Montserrat', sans-serif; }
     .jumbotron h1.lead span {
       font-weight: 500;
-      color: #fff; }
+      color: #000; }
+  .jumbotron .tagline {
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 20px; }
 
 .career-tout.section {
   position: fixed;
   bottom: 0;
   z-index: 0;
-  background: rgba(36, 159, 201, 0.7);
+  background: #000;
+  color: #fff;
   margin-bottom: 0;
   width: 100%;
   text-align: center;
   padding: 53px 0 0; }
   .career-tout.section h2 {
-    color: #FFF;
+    color: #0F9194;
     padding-bottom: 12px;
     text-transform: uppercase;
     margin-bottom: 33px;
     font-size: 28px; }
   .career-tout.section a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-size: 22px;
-    border: 2px solid #000;
+    border: 2px solid #0F9194;
     padding: 10px 20px; }
     .career-tout.section a:hover {
       transition: .5s all;
-      background: rgba(255, 255, 255, 0.9); }
+      background: #0F9194; }
 
 /* Supporting marketing content */
 .marketing {
