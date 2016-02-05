@@ -9,6 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
