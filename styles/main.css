@@ -100,7 +100,6 @@ body, html {
   margin: 0 auto;
   padding: 0 20px; }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
 /* Custom page header */
 .header {
   position: fixed;
@@ -108,8 +107,7 @@ body, html {
   width: 100%;
   top: 0;
   text-align: center;
-  background: white;
-  /* Make the masthead heading the same height as the navigation */ }
+  background: white; }
   .header img {
     padding-top: 20px;
     padding-bottom: 20px; }
@@ -177,9 +175,6 @@ body, html {
     .section footer li:last-child a {
       margin-right: 0;
       border-right: none; }
-
-.container-narrow > hr {
-  margin: 30px 0; }
 
 /* Main marketing message and sign up button */
 .jumbotron {
