@@ -162,13 +162,24 @@ body, html {
     font-size:40px; 
     color:#fff;
     margin-top:20px;
+    margin-bottom:30px;
+  }
+  span.contact-container{
+    font-size:24px;
+  }
+  span.contact-container a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px;
+    vertical-align: middle;
   }
 }
 .career-tout.section{
   position:fixed;
   bottom:0;
   z-index:0;
-  background:#000;
+  background:#131313;
   color:#fff;
   margin-bottom:0;
   width:100%;
