@@ -7,7 +7,7 @@
         <!-- <h1>'Allo, 'Allo!</h1> -->
         <h1 class="lead">Kirsten <span>Dodd</span></h1>
         <p class="tagline">Web <em>Designer</em> <strong>Developer</strong> <span>Extraordinaire</span></p>
-        <span class="contact-container"><a href="matilto:kirsten.jvd@gmail.com">kirstenjvd@gmail.com</a> | <a href="https://ca.linkedin.com/in/kirsten-dodd-582b373b">LinkedIn</a></span>
+        <span class="contact-container"><a href="matilto:kirsten.jvd@gmail.com">kirstenjvd@gmail.com</a> | <a target="_blank" href="https://ca.linkedin.com/in/kirsten-dodd-582b373b">LinkedIn</a></span>
       </div>
       <div class="section">
         <div class="fc wrapper col-lg-6">
