@@ -9,14 +9,14 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    <link rel='shortcut icon' href='images/favicon/favicon.ico' type='image/x-icon'/ >
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
     <!-- endbuild -->
 
-<!--     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
@@ -30,7 +30,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="images/favicon/manifest.json">
-    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png"> -->
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
 
     
     <!-- build:css(.tmp) styles/main.css -->
