@@ -13,13 +13,14 @@
         <div class="fc wrapper col-lg-6">
           <h2>What I do</h2>
           <p>I am a design inclined front end developer. I pride myself on doing clean, innovative, and creative work. I am always looking to implement the newest cutting edge web trends.</p>
-          <p>Specialties: HTML5, CSS3, Responsive development</p>          
+          <br />
+          <p>Currently I am in the business of creating unique websites with clean designs, responsive development, and integrating into a modern ASP.NET Web CMS with custom templates and widgets.</p>      
         </div>
       </div>
       <div class="section career-tout">
         <div class="wrapper">
-          <h2>Interested in making your website mobile friendly? </h2>
-          <a href="mailto:kirsten.jvd@gmail.com" class="btn-primary">Contact me! </a>
+          <h2>Your business lacking a website or your current website need a facelift? </h2>
+          <a href="mailto:kirsten.jvd@gmail.com" class="btn-primary">Contact me for a quote!</a>
           <footer class="fc">
             <p class="copyright">&copy;copyright 2016</p>
           </footer>
