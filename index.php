@@ -14,7 +14,9 @@
           <h2>What I do</h2>
           <p>I am a design inclined front end developer. I pride myself on doing clean, innovative, and creative work. I am always looking to implement the newest cutting edge web trends.</p>
           <br />
-          <p>Currently I am in the business of creating unique websites with clean designs, responsive development, and integrating into a modern ASP.NET Web CMS with custom templates and widgets.</p>      
+          <p>I am currently in the business of creating unique websites with clean designs, responsive development, and integrating into a modern ASP.NET web content management platform using custom templates and widgets.</p>   
+          <br /> 
+          <p style="font-size: 14px;"><em>Work examples available upon request</em></p>  
         </div>
       </div>
       <div class="section career-tout">
