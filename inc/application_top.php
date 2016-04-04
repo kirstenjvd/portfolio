@@ -10,11 +10,6 @@
 
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel='shortcut icon' href='images/favicon/favicon.ico' type='image/x-icon'/ >
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
 
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
@@ -30,7 +25,10 @@
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="images/favicon/manifest.json">
-    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
 
     
     <!-- build:css(.tmp) styles/main.css -->
