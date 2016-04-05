@@ -54,7 +54,6 @@ body, html {
   top: -38px;
   text-align: center;
   z-index: 1;
-  opacity: .75;
   left: 50%;
   transform: translateX(-50%);
   transition: all .5s; }
@@ -439,31 +438,285 @@ body, html {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0; } }
+.logo-container {
+  position: absolute;
+  top: -38px;
+  text-align: center;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all .5s; }
+  @media screen and (max-width: 900px) {
+    .logo-container {
+      top: -69px; } }
+  .logo-container.fixed-logo-top {
+    top: 12px; }
+    @media screen and (max-width: 900px) {
+      .logo-container.fixed-logo-top {
+        top: 9px;
+        left: auto;
+        right: 12px;
+        transform: none; }
+        .logo-container.fixed-logo-top .k {
+          font-size: 38px;
+          line-height: 28px; }
+        .logo-container.fixed-logo-top .d {
+          font-size: 38px;
+          line-height: 7px; } }
+
+.k {
+  font-size: 70px;
+  line-height: 36px;
+  font-weight: 500;
+  display: block;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #000; }
+
+.d {
+  padding-top: 4px;
+  font-size: 70px;
+  line-height: 30px;
+  font-weight: 500;
+  display: block;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  color: #000; }
+
+.header {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  background: #fff;
+  margin-top: 0;
+  text-align: center;
+  -webkit-box-shadow: -1px -2px 3px -2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px -2px 3px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px -2px 3px -2px rgba(0, 0, 0, 0.3); }
+  .header.fixed-top {
+    position: fixed;
+    top: 0;
+    box-shadow: -1px -2px 3px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: -1px -2px 3px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: -1px -2px 3px 2px rgba(0, 0, 0, 0.3);
+    transition: 0.5s all; }
+    .header.fixed-top li a:hover {
+      top: 6px;
+      border-bottom: 4px solid #000;
+      border-top: none; }
+  .header .wrapper {
+    background: #fff; }
+  .header li:first-child a {
+    margin-left: 0; }
+  .header li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #3F3F3F;
+    position: relative;
+    top: 0;
+    transition: all .25s;
+    padding: 10px 0; }
+    .header li a:hover {
+      top: -6px;
+      border-top: 4px solid #000; }
+  .header ul {
+    list-style: none;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    padding-left: 0;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    margin: 0; }
+  .header li {
+    display: inline-block;
+    color: #ccc; }
+  .header .social {
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 2px; }
+    .header .social li a {
+      margin: 0;
+      display: block;
+      opacity: 0.75;
+      position: relative;
+      top: 0;
+      transition: all .25s;
+      padding: 0; }
+      .header .social li a:hover {
+        opacity: 1;
+        top: -5px;
+        border: none; }
+    .header .social img {
+      display: block;
+      width: 40px;
+      height: 40px; }
+
+@media screen and (max-width: 900px) {
+  .header {
+    text-align: center;
+    padding-bottom: 0px; }
+    .header ul {
+      float: none;
+      padding: 0;
+      display: inline-block; }
+    .header li a {
+      margin-left: 8px; }
+    .header .logo {
+      float: none;
+      padding: 15px 0 0;
+      display: inline-block; }
+    .header .wrapper {
+      padding: 0; } }
+/* Custom page footer */
+.section footer {
+  padding-top: 76px;
+  color: #000;
+  font-size: 12px;
+  padding-top: 45px; }
+  .section footer p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0 0 12px; }
+  .section footer .copyright {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto; }
+  .section footer .footer-links a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    padding: 0 8px 0 0;
+    border-right: 1px solid #000;
+    margin-right: 8px; }
+    .section footer .footer-links a:hover {
+      background: none;
+      color: #fff; }
+  .section footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 3px 0 0 0; }
+    .section footer ul:before, .section footer ul:after {
+      content: " ";
+      display: table; }
+    .section footer ul:after {
+      clear: both; }
+  .section footer li {
+    float: left; }
+    .section footer li:last-child a {
+      margin-right: 0;
+      border-right: none; }
+
+/* Main marketing message and sign up button */
+.career-tout.section {
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+  background: #131313;
+  color: #fff;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 53px 0 30px; }
+  .career-tout.section h2 {
+    color: #0F9194;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+    font-size: 28px; }
+  .career-tout.section a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    border: 2px solid #0F9194;
+    padding: 10px 20px; }
+    .career-tout.section a:hover {
+      transition: .5s all;
+      background: #0F9194; }
+
+@media screen and (max-width: 900px) {
+  .career-tout.section {
+    position: relative; }
+    .career-tout.section .wrapper {
+      padding-right: 10px;
+      padding-left: 10px; }
+    .career-tout.section h2 {
+      font-size: 24px; }
+    .career-tout.section a.btn-primary {
+      font-size: 18px;
+      padding: 8px 10px; }
+
+  .homepage .section {
+    margin-bottom: 0;
+    padding: 20px 0 60px; }
+    .homepage .section .inner-container p {
+      font-size: 20px; }
+    .homepage .section .inner-container {
+      padding-bottom: 0; }
+
+  .career-tout.section {
+    padding-bottom: 40px; }
+
+  .section footer {
+    text-align: center; }
+
+  .section footer .footer-links {
+    float: none;
+    display: inline-block; }
+
+  .section footer p.copyright {
+    font-size: 10px;
+    text-align: center;
+    float: none; } }
 .container-box {
   position: relative;
   margin: 0 auto; }
+  @media screen and (max-width: 900px) {
+    .container-box {
+      margin-bottom: 50px; } }
   .container-box .container-img {
-    -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
     max-width: 40%;
     position: absolute;
     top: -100px; }
     .container-box .container-img img {
       max-width: 100%;
       display: block; }
+    @media screen and (max-width: 900px) {
+      .container-box .container-img {
+        position: static;
+        max-width: 100%;
+        margin: 0 auto; } }
   .container-box .container-copy {
-    -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.3); }
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3); }
 
 .type-1 {
-  max-width: 800px; }
+  max-width: 800px;
+  width: 90%; }
+  @media screen and (max-width: 900px) {
+    .type-1 {
+      width: 100%; } }
   .type-1 h2 {
     position: absolute;
     right: 0;
     top: -61px;
     margin: 0; }
+    @media screen and (max-width: 900px) {
+      .type-1 h2 {
+        position: static;
+        text-align: center; } }
   .type-1 .container-img {
     left: -50px;
     border: white 5px solid; }
@@ -471,15 +724,27 @@ body, html {
     background: #0f9194;
     color: white;
     padding: 42px 30px 150px 40%; }
+    @media screen and (max-width: 900px) {
+      .type-1 .container-copy {
+        padding: 25px; } }
 
 .type-2 {
-  max-width: 900px; }
+  max-width: 900px;
+  width: 90%; }
+  @media screen and (max-width: 900px) {
+    .type-2 {
+      width: 100%; } }
   .type-2 h2 {
     position: absolute;
     color: #fff;
     left: 47px;
     top: -56px;
     margin: 0; }
+    @media screen and (max-width: 900px) {
+      .type-2 h2 {
+        position: static;
+        text-align: center;
+        color: #0f9194; } }
   .type-2 .container-img {
     right: -50px;
     border: white 5px solid;
@@ -490,9 +755,80 @@ body, html {
     color: #0f9194;
     border: 5px solid #0f9194;
     padding: 50px 40% 50px 50px; }
+    @media screen and (max-width: 900px) {
+      .type-2 .container-copy {
+        padding: 25px; } }
 
 #section-about {
   padding-top: 300px; }
+  @media screen and (max-width: 900px) {
+    #section-about {
+      padding-top: 54px; } }
   #section-about h2 {
     font-size: 62px;
     letter-spacing: -0.05em; }
+
+.lead {
+  overflow: hidden; }
+
+.lead span {
+  transition: all .75s;
+  position: relative; }
+  .lead span:first-of-type {
+    left: 0%;
+    color: #fff; }
+  .lead span:last-of-type {
+    right: 0%; }
+  .lead span.left-scroll {
+    left: 100%; }
+  .lead span.right-scroll {
+    right: 100%; }
+
+.jumbotron {
+  text-align: center;
+  padding-top: 50px;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  min-height: 300px !important; }
+  @media screen and (max-width: 900px) {
+    .jumbotron {
+      border-bottom: 0; } }
+  .jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px; }
+  .jumbotron h1.lead {
+    color: #fff;
+    font-size: 146px;
+    line-height: 1;
+    font-weight: 400;
+    padding-top: 200px;
+    margin: 0 auto;
+    position: relative;
+    letter-spacing: .025em;
+    font-family: 'Montserrat', sans-serif; }
+    @media screen and (max-width: 900px) {
+      .jumbotron h1.lead {
+        font-size: 48px;
+        padding-top: 170px;
+        line-height: 44px; } }
+    .jumbotron h1.lead span:last-of-type {
+      font-weight: 500;
+      color: #000; }
+  .jumbotron .tagline {
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    @media screen and (max-width: 900px) {
+      .jumbotron .tagline {
+        font-size: 22px; } }
+  .jumbotron span.contact-container {
+    font-size: 24px; }
+  .jumbotron span.contact-container a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px;
+    vertical-align: middle; }
