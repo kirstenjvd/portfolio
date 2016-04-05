@@ -51,7 +51,7 @@ $(document).ready(function () {
     $('.homepage .jumbotron').height(windowHeight);
     $('.secondary .jumbotron').height(windowHalfHeight);
     
-    $('.lead span').delay(150).queue(function () {
+    $('.lead span').delay(100).queue(function () {
         $(this).removeClass('left-scroll');
         $(this).removeClass('right-scroll');
     });
