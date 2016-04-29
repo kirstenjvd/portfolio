@@ -60,6 +60,9 @@
 	}
 	.container-copy{
 		padding: 50px 36% 50px 50px;
+		@include max-screen($tablet){
+			padding: 25px 25px 35px 25px;
+		}
 	}
 }
 .type-1{
@@ -87,7 +90,7 @@
 	.container-copy{
 		background: $color-brand;
 		color: $white;
-		padding: 42px 30px 98px 38%;
+		padding: 42px 30px 126px 38%;
 		@include max-screen($tablet){
 	     	padding: 25px 25px 35px 25px;
 
@@ -97,19 +100,28 @@
 }
 .where.type-2{
 	h2{
-		    left: 105px;
+		left: 105px;
+	}
+	.container-img{
+	    right: -80px;
+	    top: -60px;
+	    padding: 10px;
+	    background: #fff;
 	}
 }
 .how.type-1{
 	width: 62%;
 	h2{
-		right: 287px;
+		right: 215px;
 	}
 	.container-copy {
 	    background: #0f9194;
 	    color: #FFF;
-	        padding: 60px 44px 60px 44px;
+	    padding: 60px 44px 60px 44px;
 	}
+	@include max-screen($tablet){
+		width:100%;
+	}	
 }
 .type-2{
 	max-width: 900px;
@@ -137,6 +149,9 @@
 	    overflow: hidden;
 	    max-width: 48%;
 	    top: -14px;
+	    @include max-screen($tablet){
+	    	max-width:100%;
+	    }
 	}
 	.container-img-2{
 	    right: -140px;
@@ -145,6 +160,9 @@
 	    overflow: hidden;
 	    top: 232px;
 	    max-width: 48%;
+	    @include max-screen($tablet){
+	    	max-width:100%;
+	    }
 	}
 	.container-copy{
 		background: $white;

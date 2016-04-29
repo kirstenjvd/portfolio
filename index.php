@@ -52,11 +52,11 @@
           
           <div class="container-box type-2 where">
             <div class="container-img">
-              <img src="images/desk.jpg" src="picture of me" />
+              <img src="images/map.jpg" src="map" />
             </div>
             <h2>where</h2>
             <div class="container-copy">
-              <p>A true gypsy soul; Kirsten has lived in many cities across North America, always finding new sources of creativity and innovation in each.   </p>
+              <p>A true gypsy soul; Kirsten has lived in cities across North America, always finding new sources of creativity and innovation in each.   </p>
             </div>
           </div>
           <div class="container-box type-1 how">
