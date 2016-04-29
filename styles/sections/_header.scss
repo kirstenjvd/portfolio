@@ -108,10 +108,12 @@
 
   .social{
     margin: 0;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 4px;
+    padding-bottom: 0px;
     li{
-      // margin-left:10px;
+      &:last-child{
+        margin-left:-5px;
+      }
     }
     li a{
       margin: 0;
@@ -123,7 +125,7 @@
       padding: 0;
       &:hover{
         opacity: 1;
-        top: -5px;
+        top: 5px;
         border: none;
       }
     }
