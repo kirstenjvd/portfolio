@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Kirsten Dodd</title>
-    <meta name="description" content="">
+    <meta name="description" content="A Freelance Web Designer and Developer based in Victoria, BC.">
     <meta name="viewport" content="width=device-width">
+
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 

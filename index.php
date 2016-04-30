@@ -56,7 +56,7 @@
             </div>
             <h2>where</h2>
             <div class="container-copy">
-              <p>A true gypsy soul; Kirsten has lived in cities across North America, always finding new sources of creativity and innovation in each.   </p>
+              <p>A true gypsy soul; Kirsten has lived in cities across North America, always finding new sources of creativity and innovation in each. Today she calls <strong>Victoria, BC</strong> home.</p>
             </div>
           </div>
           <div class="container-box type-1 how">
