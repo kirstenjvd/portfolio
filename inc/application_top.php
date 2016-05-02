@@ -8,13 +8,13 @@
 
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel='shortcut icon' href='images/favicon/favicon.ico' type='image/x-icon'/ >
 
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon'/
+    -72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
@@ -29,8 +29,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
-
     
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/normalize.css">

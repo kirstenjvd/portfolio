@@ -9,15 +9,15 @@
         $this.each(moveSpeed);
 
         var height = $(window).scrollTop();
-        var scrollDis = $(window).outerHeight()-306;
-        var navDis = $(window).outerHeight()-50;
-        var logoDis = $(window).outerHeight() - 85;
+        var toutHeight = $('.homepage .jumbotron').height();
+        var navDis = toutHeight + 50;
+        var logoDis = toutHeight + 10;
         
         //bottom section changes z index 
-        if(height  > scrollDis ) {
+        if(height  > toutHeight ) {
             $('.career-tout').css('z-index', '2');
         }
-        if(height  < scrollDis ) {
+        if(height  < toutHeight ) {
             $('.career-tout').css('z-index', '0');
         }
         //logo hits top of page

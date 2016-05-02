@@ -209,6 +209,7 @@
 }
 #section-about{
 	padding-top: 300px;
+	overflow:hidden;
 	@include max-screen($tablet){
 		padding-top:54px;
 	}
