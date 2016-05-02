@@ -4,11 +4,22 @@
   color: #000;
   font-size:12px;
   padding-top:45px;
-  p{font-size:12px; margin:0; padding:0 0 12px;}
+  text-align: center;
+  position:relative;
+  p{font-size:18px; line-height:22px; margin:0; color:#fff; text-align: left;
+    span{
+      font-weight:600;
+      letter-spacing: 0.05em;
+    }
+  }
   .copyright{
     color:#fff;
+    font-size:10px!important;
     text-align: center;
-    margin: 0 auto;
+    margin:0 auto;
+    position:absolute;
+    right:0;
+    bottom:0px;
   }
   .footer-links a{
     color:#000;
@@ -43,17 +54,23 @@
     color: #0F9194;
     padding-bottom: 12px;
     text-transform: uppercase;
-    margin-bottom: 33px;
+    margin-bottom: 26px;
     font-size:28px;
+  }
+  p{
+    font-size:22px;
   }
   a{
     color: #fff;
     text-decoration: none;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 22px;
+    font-size: 20px;
     border: 2px solid #0F9194;
     padding: 10px 20px;
+    letter-spacing: 0.05em;
+    display:inline-block;
+    padding: 8px 13px 10px;
+    margin: 0 10px;
     &:hover
     {  
       transition: .5s all;

@@ -73,7 +73,7 @@
       <div class="section career-tout">
         <div class="wrapper">
           <h2>Your business lacking a website or your current website need a facelift? </h2>
-          <a href="mailto:kirsten.jvd@gmail.com" class="btn-primary">Contact me for a quote!</a>
+          <p>Contact <a href="mailto:kirsten.jvd@gmail.com" class="btn-primary">kirstenjvd@gmail.com</a> for a quote!</p>
           <footer class="fc">
             <p class="copyright">&copy;copyright 2016</p>
           </footer>

@@ -263,15 +263,26 @@ body, html {
   padding-top: 76px;
   color: #000;
   font-size: 12px;
-  padding-top: 45px; }
+  padding-top: 45px;
+  text-align: center;
+  position: relative; }
   .section footer p {
-    font-size: 12px;
+    font-size: 18px;
+    line-height: 22px;
     margin: 0;
-    padding: 0 0 12px; }
+    color: #fff;
+    text-align: left; }
+    .section footer p span {
+      font-weight: 600;
+      letter-spacing: 0.05em; }
   .section footer .copyright {
     color: #fff;
+    font-size: 10px !important;
     text-align: center;
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    bottom: 0px; }
   .section footer .footer-links a {
     color: #000;
     font-size: 14px;
@@ -313,16 +324,21 @@ body, html {
     color: #0F9194;
     padding-bottom: 12px;
     text-transform: uppercase;
-    margin-bottom: 33px;
+    margin-bottom: 26px;
     font-size: 28px; }
+  .career-tout.section p {
+    font-size: 22px; }
   .career-tout.section a {
     color: #fff;
     text-decoration: none;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 22px;
+    font-size: 20px;
     border: 2px solid #0F9194;
-    padding: 10px 20px; }
+    padding: 10px 20px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    padding: 8px 13px 10px;
+    margin: 0 10px; }
     .career-tout.section a:hover {
       transition: .5s all;
       background: #0F9194; }
