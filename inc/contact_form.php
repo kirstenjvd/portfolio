@@ -24,7 +24,7 @@
 			$errMessage = 'Please enter your message';
 		}
 		//Check if simple anti-bot test is correct
-		if ($human !== 5) {
+		if ($human !== 3) {
 			$errHuman = 'Your anti-spam is incorrect';
 		}
 // If there are no errors, send the email
