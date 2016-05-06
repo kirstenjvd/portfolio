@@ -126,6 +126,32 @@
     opacity: .75; }
     .form-horizontal input[type="submit"]:hover {
       opacity: 1; }
+  .form-horizontal .clr:before, .form-horizontal .clr:after {
+    content: " ";
+    display: table; }
+  .form-horizontal .clr:after {
+    clear: both; }
+  .form-horizontal p.text-danger {
+    text-align: left;
+    font-style: italic;
+    color: #DC0000;
+    font-size: 15px;
+    position: absolute;
+    bottom: -10px;
+    right: 0; }
+  .form-horizontal .form-group {
+    position: relative; }
+  .form-horizontal .alert-success {
+    position: fixed;
+    bottom: 0;
+    background: #31A4A7;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+    padding: 10px; }
 
 .section.contact-form {
   background: #99DFE0; }

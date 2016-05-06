@@ -4,9 +4,9 @@
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
-		$from = 'Demo Contact Form'; 
+		$from = 'Contact Form'; 
 		$to = 'kirstenjvd@gmail.com'; 
-		$subject = 'Message from Contact Demo ';
+		$subject = 'Message from Contact Form';
 		
 		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
 		// Check if name has been entered
@@ -25,7 +25,7 @@
 		}
 		//Check if simple anti-bot test is correct
 		if ($human !== 3) {
-			$errHuman = 'Your anti-spam is incorrect';
+			$errHuman = 'Incorrect anti-spam';
 		}
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errMessage && !$errHuman) {

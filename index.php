@@ -75,18 +75,20 @@
         <div class="wrapper">
         <h2>Drop Me a Line</h2>
           <form class="form-horizontal" role="form" method="post" action="index.php">
-            <div class="form-group name-group">
-              <label for="name" class="col-sm-2 control-label">Name</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-                <?php echo "<p class='text-danger'>$errName</p>";?>
+            <div class="clr">
+              <div class="form-group name-group">
+                <label for="name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+                  <?php echo "<p class='text-danger'>$errName</p>";?>
+                </div>
               </div>
-            </div>
-            <div class="form-group email-group">
-              <label for="email" class="col-sm-2 control-label">Email</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-                <?php echo "<p class='text-danger'>$errEmail</p>";?>
+              <div class="form-group email-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+                  <?php echo "<p class='text-danger'>$errEmail</p>";?>
+                </div>
               </div>
             </div>
             <div class="form-group">
