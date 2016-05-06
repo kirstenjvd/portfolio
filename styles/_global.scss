@@ -26,7 +26,9 @@ body, html {
   }
 }
 
-.homepage .section{margin-bottom:300px;}
+.homepage{padding-bottom:300px;
+  @include max-screen($tablet){padding-bottom:0;}
+}
 .section{
   position:relative;
   z-index:3;
