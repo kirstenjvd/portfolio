@@ -30,13 +30,13 @@
               </a>
             </div>
             <div class="container-img-2">
-              <a href="http://dev.wpbo.info/" target="_blank">
+              <a href="https://dev.nxlregistration.com/" target="_blank">
                 <img src="images/work_example2.jpg" src="paintball site image" />
               </a>
             </div>
             <h2>what</h2>
             <div class="container-copy">
-              <p>Kirsten worked as a Senior Web Developer for Toronto Web Agency <a href="http://www.climaxmedia.com" target="_blank">Climax Media</a>. She was lead <strong>Front-End Developer</strong> on the recent redesign of <a href="http://www.honda.ca" target="_blank">Honda Canada's</a> home and models pages.  She was also lead Front-End Developer on projects such as <a href="http://brookfieldhomes.ca/community/treetops/new-homes" target="_blank">Brookfield Homes Community</a>, <a href="http://www.scoutt.com" target="_blank">Scoutt</a>, <a href="http://www.nerdblock.com" target="_blank">Nerd Block</a>, and others. Recently as a <strong>freelance artist</strong> she has been contracted by a Microsoft partner to Design and Develop a <a href="http://dev.portal.esidev.ca/" target="_blank">demo site</a> for potential clients, a student portal for non-profit organization Women Building Futures <em>(in progress)</em>, and a registration system for worldwide pro <a href="http://dev.wpbo.info" target="_blank">Paintball</a> players. In addition, she is currently working with up-and-coming Musicians in Victoria, BC to improve their marketing and branding through Photography, Digital Design, Social Media Presence, and Website Development.</p>  
+              <p>Kirsten worked as a Senior Web Developer for Toronto Web Agency <a href="http://www.climaxmedia.com" target="_blank">Climax Media</a>. She was lead <strong>Front-End Developer</strong> on the recent redesign of <a href="http://www.honda.ca" target="_blank">Honda Canada's</a> home and models pages.  She was also lead Front-End Developer on projects such as <a href="http://brookfieldhomes.ca/community/treetops/new-homes" target="_blank">Brookfield Homes Community</a>, <a href="http://www.scoutt.com" target="_blank">Scoutt</a>, <a href="http://www.nerdblock.com" target="_blank">Nerd Block</a>, and others. Recently as a <strong>freelance artist</strong> she has been contracted by a Microsoft partner to Design and Develop a <a href="http://dev.portal.esidev.ca/" target="_blank">demo site</a> for potential clients, a student portal for non-profit organization Women Building Futures <em>(in progress)</em>, and a registration system for worldwide pro <a href="https://dev.nxlregistration.com/" target="_blank">Paintball</a> players. In addition, she is currently working with up-and-coming Musicians in Victoria, BC to improve their marketing and branding through Photography, Digital Design, Social Media Presence, and Website Development.</p>  
             </div>
           </div>
           <div class="container-box type-3">
