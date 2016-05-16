@@ -15,7 +15,7 @@
         <div class="fc wrapper">
           <div class="container-box type-1" id="about">
             <div class="container-img">
-              <img src="images/me.jpg" src="picture of me" />
+              <img src="images/me2.jpg" src="picture of me" />
             </div>
             <h2>who</h2>
             <div class="container-copy">
