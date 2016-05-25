@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Kirsten Dodd</title>
-    <meta name="description" content="A Freelance Web Designer and Developer based in Victoria, BC.">
     <meta name="viewport" content="width=device-width">
+
+    <meta name="description" content="A Freelance Web Designer and Developer based in Victoria, BC.">
+    <meta name="keywords" content="Website,Website Design,Website Development,Digital Design,Victoria Design">
+    <meta name="author" content="Kirsten Dodd">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
@@ -13,8 +16,7 @@
 
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon'/
-    -72x72.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon'/-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
