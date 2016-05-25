@@ -9,6 +9,24 @@
     <meta name="keywords" content="Website,Website Design,Website Development,Digital Design,Victoria Design">
     <meta name="author" content="Kirsten Dodd">
 
+    <meta name="robots" content="noodp"/>
+    <link rel="canonical" href="https://www.kirstendodd.com/"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Kirsten Dodd | Web. Development. Design. | Victoria, B.C."/>
+    <meta property="og:description" content="A Freelance Web Designer and Developer based in Victoria, BC. "/>
+
+    <meta property="og:url" content="https://www.kirstendodd.com/"/>
+    <meta property="og:site_name" content="Kirsten Dodd Freelance Web Designer and Developer"/>
+    <meta property="og:image" content="images/favicon/favicon-96x96.png"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:description" content="A Freelance Web Designer and Developer. An entrepreneurial spirit with a passion for photography. A detail oriented trendsetter. A mentor. And above all a dog lover."/>
+    <meta name="twitter:title" content="KirstenDOdd | Web. Development. Design. | Victoria, B.C."/>
+    <meta name="twitter:site" content="@kirstenjvd"/>
+    <meta name="twitter:image" content="images/favicon/favicon-96x96.png"/>
+    <meta name="twitter:creator" content="@kirstenjvd"/>
+
+
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
