@@ -99,9 +99,9 @@
               </div>
             </div>
             <div class="form-group test-group">
-              <label for="human" class="col-sm-2 control-label">1 + 2 = ?</label>
+              <label for="human" class="col-sm-2 control-label">1 + 2 = </label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+                <input type="text" class="form-control" id="human" name="human" placeholder="?">
                 <?php echo "<p class='text-danger'>$errHuman</p>";?>
               </div>
             </div>

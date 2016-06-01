@@ -21,7 +21,7 @@
     <meta property="og:image" content="images/favicon/favicon-96x96.png"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:description" content="A Freelance Web Designer and Developer. An entrepreneurial spirit with a passion for photography. A detail oriented trendsetter. A mentor. And above all a dog lover."/>
-    <meta name="twitter:title" content="KirstenDOdd | Web. Development. Design. | Victoria, B.C."/>
+    <meta name="twitter:title" content="KirstenDodd | Web. Development. Design. | Victoria, B.C."/>
     <meta name="twitter:site" content="@kirstenjvd"/>
     <meta name="twitter:image" content="images/favicon/favicon-96x96.png"/>
     <meta name="twitter:creator" content="@kirstenjvd"/>

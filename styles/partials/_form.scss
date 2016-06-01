@@ -20,7 +20,7 @@
 		&:focus{
 			border: 4px solid #0F9194;
 			opacity:1;
-			transition: .25s all;
+			transition: .2s all;
 			&::-webkit-input-placeholder{
 				opacity:0;
 				transition: .5s all;
@@ -36,27 +36,30 @@
 
     }
     label{
-    	margin-bottom:7px;
+    	margin-bottom: 7px;
     	text-transform: uppercase;
-    	display:block;
+    	display: block;
     	font-size: 20px;
     }
     .name-group{
 		float: left; width: 48%;
 		@include max-screen($tablet){
-			width:100%;
-			float:none;
+			width: 100%;
+			float: none;
 		}
     }
     .email-group{
 		float: right; width: 48%;
 		@include max-screen($tablet){
-			width:100%;
-			float:none;
+			width: 100%;
+			float: none;
 		}
     }
     .test-group{
-    	max-width:120px;
+    	max-width: 54px;
+    	input{
+    		text-align: center;
+    	}
     }
     input[type="submit"]{
 		cursor: pointer;
