@@ -58,14 +58,14 @@
     .form-horizontal textarea:focus,
     .form-horizontal input[type="email"]:focus,
     .form-horizontal input[type="text"]:focus {
-      border: 4px solid #0F9194;
+      border: 4px solid #000;
       opacity: 1;
       transition: .2s all; }
       .form-horizontal textarea:focus::-webkit-input-placeholder,
       .form-horizontal input[type="email"]:focus::-webkit-input-placeholder,
       .form-horizontal input[type="text"]:focus::-webkit-input-placeholder {
         opacity: 0;
-        transition: .5s all; }
+        transition: .25s all; }
     .form-horizontal textarea::-webkit-input-placeholder,
     .form-horizontal input[type="email"]::-webkit-input-placeholder,
     .form-horizontal input[type="text"]::-webkit-input-placeholder {
@@ -82,7 +82,7 @@
     .form-horizontal input[type="email"]:-ms-input-placeholder,
     .form-horizontal input[type="text"]:-ms-input-placeholder {
       color: #83AEAF;
-      transition: .5s all; }
+      transition: .25s all; }
   .form-horizontal label {
     margin-bottom: 7px;
     text-transform: uppercase;
@@ -114,7 +114,7 @@
     font-weight: 500;
     border: none;
     outline: none;
-    background: #0f9194;
+    background: none;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -125,9 +125,10 @@
     border-radius: 0 !important;
     -webkit-appearance: none;
     margin-top: 20px;
-    opacity: .75; }
+    border: 4px solid #fff; }
     .form-horizontal input[type="submit"]:hover {
-      opacity: 1; }
+      background: #fff;
+      color: black; }
   .form-horizontal .clr:before, .form-horizontal .clr:after {
     content: " ";
     display: table; }
@@ -156,10 +157,11 @@
     padding: 10px; }
 
 .section.contact-form {
-  background: #99DFE0; }
+  background: #0f9194; }
   .section.contact-form h2 {
     margin-bottom: 50px;
-    font-size: 40px; }
+    font-size: 40px;
+    color: #fff; }
     @media screen and (max-width: 900px) {
       .section.contact-form h2 {
         font-size: 2em; } }

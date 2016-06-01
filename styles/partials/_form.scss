@@ -18,12 +18,12 @@
 		-webkit-appearance: none;
 		border: 4px solid #fff;
 		&:focus{
-			border: 4px solid #0F9194;
+			border: 4px solid #000;
 			opacity:1;
 			transition: .2s all;
 			&::-webkit-input-placeholder{
 				opacity:0;
-				transition: .5s all;
+				transition: .25s all;
 			}
 		}
 		&::-webkit-input-placeholder{color:#83AEAF;}
@@ -31,7 +31,7 @@
 		&::-moz-placeholder{color:#83AEAF;}
 		&:-ms-input-placeholder{
 			color:#83AEAF;
-			transition: .5s all;
+			transition: .25s all;
 		}
 
     }
@@ -69,7 +69,7 @@
 		font-weight: 500;
 		border: none;
 		outline: none;
-		background:$color-brand;
+		background: none;
 		width: 100%;
 		text-align: center;
 		text-transform: uppercase;
@@ -80,9 +80,10 @@
 		border-radius: 0 !important;
 		-webkit-appearance: none;
 		margin-top:20px;
-		opacity:.75;
+		border: 4px solid #fff;
 		&:hover{
-			opacity:1;
+			background: #fff;
+			color: $black;
 		}
     }
 	.clr{
@@ -115,10 +116,11 @@
 }
 
 .section.contact-form{
-	background: #99DFE0;
+	background: #0f9194;
 	h2{
 		margin-bottom: 50px;
 	    font-size: 40px;
+	    color: #fff;
 	    @include max-screen($tablet){
 	    	font-size:2em;
 	    }
