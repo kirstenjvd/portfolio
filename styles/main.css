@@ -54,7 +54,8 @@
     height: auto;
     border-radius: 0 !important;
     -webkit-appearance: none;
-    border: 4px solid #fff; }
+    border: 4px solid #fff;
+    color: black; }
     .form-horizontal textarea:focus,
     .form-horizontal input[type="email"]:focus,
     .form-horizontal input[type="text"]:focus {
