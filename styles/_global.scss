@@ -21,14 +21,10 @@ body, html {
   .inner-container{
     background:#0F9194;
     background-size: cover;
-    opacity: 0.75;
     height: 100%;
   }
 }
 
-.homepage{padding-bottom:300px;
-  @include max-screen($tablet){padding-bottom:0;}
-}
 .section{
   position:relative;
   z-index:3;

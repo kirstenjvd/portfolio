@@ -10,16 +10,9 @@
 
         var height = $(window).scrollTop();
         var toutHeight = $('.homepage .jumbotron').height();
-        var navDis = toutHeight + 50;
+        var navDis = toutHeight - 65;
         var logoDis = toutHeight + 10;
-        
-        //bottom section changes z index 
-        if(height  > toutHeight ) {
-            $('.career-tout').css('z-index', '2');
-        }
-        if(height  < toutHeight ) {
-            $('.career-tout').css('z-index', '0');
-        }
+
         //logo hits top of page
         if(height  > logoDis ) {
             $('.logo-container').addClass('fixed-logo-top');
@@ -34,6 +27,23 @@
         if(height  < navDis) {
             $('.header').removeClass('fixed-top');
         }
+
+       //  // Get id of current scroll item
+       // var cur = scrollItems.map(function(){
+       //   if ($(this).offset().top < fromTop)
+       //     return this;
+       // });
+       // // Get the id of the current element
+       // cur = cur[cur.length-1];
+       // var id = cur && cur.length ? cur[0].id : "";
+
+       // if (lastId !== id) {
+       //     lastId = id;
+       //     // Set/remove active class
+       //     menuItems
+       //       .parent().removeClass("active")
+       //       .end().filter("[href=#"+id+"]").parent().addClass("active");
+       // }
     });
 
     function moveSpeed(){
@@ -45,8 +55,9 @@
     }
 }
 
+
 $(document).ready(function () {
-	windowHeight = $(window).outerHeight() - 100;
+	windowHeight = $(window).innerHeight()-50;
 	windowHalfHeight = $(window).outerHeight()/2;
     $('.homepage .jumbotron').height(windowHeight);
     $('.secondary .jumbotron').height(windowHalfHeight);
@@ -55,6 +66,23 @@ $(document).ready(function () {
         $(this).removeClass('left-scroll');
         $(this).removeClass('right-scroll');
     });
+
+
+});
+
+$(function() {
+  $('.nav-pills a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top - 120
+        }, 1000);
+        return false;
+      }
+    }
+  });
 });
 
 

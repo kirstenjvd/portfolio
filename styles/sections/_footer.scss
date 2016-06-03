@@ -1,87 +1,93 @@
 /* Custom page footer */
-.section footer {
-  padding-top: 76px;
-  color: #000;
-  font-size:12px;
-  padding-top:45px;
-  text-align: center;
-  position:relative;
-  p{font-size:18px; line-height:22px; margin:0; color:#fff; text-align: left;
-    span{
-      font-weight:600;
-      letter-spacing: 0.05em;
-    }
-  }
-  .copyright{
-    color:#fff;
-    font-size:10px!important;
-    text-align: center;
-    margin:0 auto;
-    position:absolute;
-    right:0;
-    bottom:0px;
-  }
-  .footer-links a{
-    color:#000;
-    font-size:14px;
-    text-decoration:none;
-    border:none;
-    padding:0 8px 0 0;
-    border-right:1px solid #000;
-    margin-right:8px;
-    &:hover{background:none;color:#fff;}  
-  }
-  ul{@include clearfix();list-style:none; margin:0; padding:3px 0 0 0;}
-  li{float:left;
-    &:last-child a{margin-right:0;border-right:none;}
+body{
+  background: $color-brand;
+}
+.bg-container-bottom{
+  position:fixed;
+  z-index:0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  .image{
+    background:$color-brand url(../images/corner_pattern.jpg) no-repeat top left;
+    transform: rotate(180deg);
+    width: 100%;
+    height: 100%;
   }
 }
-
-/* Main marketing message and sign up button */
-
-
-.career-tout.section{
-  position:fixed;
-  bottom:0;
-  z-index:0;
-  background:#131313;
+.section.contact-form{
+  position:relative;
+  background: none;
   color:#fff;
   margin-bottom:0;
   width:100%;
   text-align: center;
   padding:53px 0 30px;
+  .wrapper{
+    position: relative;
+    z-index: 2;
+  }
   h2{
-    color: #0F9194;
+    color: $black;
     padding-bottom: 12px;
     text-transform: uppercase;
-    margin-bottom: 26px;
-    font-size:28px;
+    margin-bottom: 0px;
+    font-size:40px;
+    @include max-screen($tablet){
+        font-size:2em;
+      }
+  }
+  .email-address{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+  .line{
+    display: inline-block;
+    text-align: center;
+    width: 3px;
+    height: 37px;
+    background: #000;
+    margin-top: 0px;
   }
   p{
     font-size:22px;
   }
-  a{
-    color: #fff;
-    text-decoration: none;
+  .copyright{
+    color:#fff;
+    font-size:10px;
     text-align: center;
-    font-size: 20px;
-    border: 2px solid #0F9194;
-    padding: 10px 20px;
-    letter-spacing: 0.05em;
-    display:inline-block;
-    padding: 8px 13px 10px;
-    margin: 0 10px;
-    &:hover
-    {  
-      transition: .5s all;
-      background: #0F9194;
+    margin:0 auto;
+  
+  }
+  .social{
+    padding: 0;
+    margin: 30px 0 0;
+    list-style: none;
+    li{
+      display:inline-block;
+      line-height:1;
+      margin: 0 4px;
+    }
+    a{
+      display:inline-block;
+      background: #fff;
+      border-radius: 50%;
+      transition: all .25s;
+      &:hover{
+        border-radius: 30%;
+
+      }
     }
   }
 }
 
 @include max-screen($tablet){
 
-  .career-tout.section{
+  .contact-form{
     position:relative;
     .wrapper{padding-right:10px;
     padding-left:10px;}
@@ -98,11 +104,10 @@
     }
     .inner-container{padding-bottom:0;}
   }
-  .career-tout.section{
+  .contact-form.section{
     padding-bottom:40px;
   }
 
   .section footer{text-align:center;}
-  .section footer .footer-links{float:none; display:inline-block;}
-  .section footer p.copyright{font-size:10px;text-align:center; float:none;}
+  .section footer p.copyright{font-size:10px;text-align:center;}
 }

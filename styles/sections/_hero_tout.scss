@@ -24,8 +24,9 @@
   padding-top:50px;
   height:100%;
   position: relative;
-  z-index: 2;
+  z-index: 4;
   min-height:580px;
+  background: url(../images/corner_pattern.jpg) top left no-repeat $color-brand;
   @include max-screen($tablet){
     border-bottom: 0;
     min-height: 300px;
@@ -39,7 +40,7 @@
     font-size: 146px;
     line-height:1;
     font-weight:400;
-    padding-top:15%;
+    padding-top:14%;
     margin: 0 auto;
     position:relative;
     letter-spacing: .025em;
