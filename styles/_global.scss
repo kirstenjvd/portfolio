@@ -11,7 +11,9 @@ html {
 body, html {
   height: 100%;
 }
-
+body.page-loaded{
+  opacity: 1;
+}
 .bg-container {
   height: 100%;
   width: 100%;

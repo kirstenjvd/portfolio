@@ -1,51 +1,27 @@
  $.fn.moveIt = function(){
   var $this = $(this);
   var $window = $(window);
-  var scrollPos = $window.scrollTop();
-  
+  var scrollPos = $window.scrollTop();  
     $(document).scroll(function() {
-
         scrollPos = $window.scrollTop();
         $this.each(moveSpeed);
-
         var height = $(window).scrollTop();
         var toutHeight = $('.homepage .jumbotron').height();
         var navDis = toutHeight - 65;
         var logoDis = toutHeight + 10;
-
-        //logo hits top of page
         if(height  > logoDis ) {
             $('.logo-container').addClass('fixed-logo-top');
         }
         if(height  < logoDis) {
             $('.logo-container').removeClass('fixed-logo-top');
         }
-        //header hits top of page
         if(height  > navDis ) {
             $('.header').addClass('fixed-top');
         }
         if(height  < navDis) {
             $('.header').removeClass('fixed-top');
         }
-
-       //  // Get id of current scroll item
-       // var cur = scrollItems.map(function(){
-       //   if ($(this).offset().top < fromTop)
-       //     return this;
-       // });
-       // // Get the id of the current element
-       // cur = cur[cur.length-1];
-       // var id = cur && cur.length ? cur[0].id : "";
-
-       // if (lastId !== id) {
-       //     lastId = id;
-       //     // Set/remove active class
-       //     menuItems
-       //       .parent().removeClass("active")
-       //       .end().filter("[href=#"+id+"]").parent().addClass("active");
-       // }
     });
-
     function moveSpeed(){
         var $this = $(this);
         var scrollSpeed = parseInt($this.data('scroll-speed'));
@@ -54,10 +30,9 @@
         $this.css('transform', 'translateY(' + elPos + 'px)');
     }
 }
-
-
 $(document).ready(function () {
-	windowHeight = $(window).innerHeight()-50;
+
+	windowHeight = $(window).innerHeight();
 	windowHalfHeight = $(window).outerHeight()/2;
     $('.homepage .jumbotron').height(windowHeight);
     $('.secondary .jumbotron').height(windowHalfHeight);
@@ -68,22 +43,39 @@ $(document).ready(function () {
     });
 
 });
-$(window).load(function(){
-  
+$(window).load(function(){ 
+
   //load my css stylesheet after pageload
-  function loadStyleSheet(src){
-      if (document.createStyleSheet) document.createStyleSheet(src);
-      else {
-          var stylesheet = document.createElement('link');
-          stylesheet.href = src;
-          stylesheet.rel = 'stylesheet';
-          stylesheet.type = 'text/css';
-          document.getElementsByTagName('head')[0].appendChild(stylesheet);
-      }
+  if(document.createStyleSheet) {
+    document.createStyleSheet('styles/main.css');
   }
+  else {
+    var styles = "styles/main.css";
+    var newSS=document.createElement('link');
+    newSS.rel='stylesheet';
+    newSS.href= styles ;
+    document.getElementsByTagName("head")[0].appendChild(newSS);
+
+  }
+//load font
+   WebFontConfig = {
+   google: {
+          families: ['Roboto Condensed:400,300,700', 'Oswald:400,700,300' , 'Montserrat:400,700', 'Noto Serif:400,700,400italic,700italic']
+        }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+
+    //remove class page-load
+    $('body').addClass('page-loaded');
 
 });
-
 $(function() {
   $('.nav-pills a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -98,8 +90,6 @@ $(function() {
     }
   });
 });
-
-
 $(function(){
   $('[data-scroll-speed]').moveIt();
 });
