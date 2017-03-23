@@ -40,6 +40,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
     <!--[if gte IE 9]>
       <style type="text/css">
         .gradient {
