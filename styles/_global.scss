@@ -38,6 +38,7 @@ body, html {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     margin:0 auto;
+    letter-spacing: 0.015em;
     @include max-screen($tablet){
       font-size: 18px;
       line-height: 31px;
