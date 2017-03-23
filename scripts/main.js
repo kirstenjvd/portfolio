@@ -72,8 +72,6 @@ $(window).load(function(){
     s.parentNode.insertBefore(wf, s);
   })();
 
-    //remove class page-load
-    $('body').addClass('page-loaded');
 
 });
 $(function() {

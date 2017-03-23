@@ -57,12 +57,7 @@
     <!--[if lt IE 9]>
     <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
     <![endif]-->
-      <style>
-          body{
-            background: #0f9194;
-            opacity: 0;
-          }
-      </style>
+
   </head>
   <body>
     <!--[if lt IE 10]>
