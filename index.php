@@ -41,18 +41,14 @@
           </div>     
           <div class="container-box type-2" id="section-work">
             <div class="container-img">
-              <a href="http://dev.portal.esidev.ca/" target="_blank">
-                <img src="images/work_example.jpg" src="Demo site image" />
-              </a>
+              <img src="images/work_example.jpg" src="Demo site image" />
             </div>
             <div class="container-img-2">
-              <a href="https://dev.nxlregistration.com/" target="_blank">
-                <img src="images/work_example2.jpg" src="paintball site image" />
-              </a>
+              <img src="images/work_example2.jpg" src="paintball site image" />
             </div>
             <h2>what</h2>
             <div class="container-copy">
-              <p>Kirsten worked as a Front End Web Developer for Toronto Web Agency <a href="http://www.climaxmedia.com" target="_blank">Climax Media</a>. She was lead <strong>Front-End Developer</strong> on the recent redesign of <a href="http://www.honda.ca" target="_blank">Honda Canada's</a> home and models pages.  She was also lead Front-End Developer on projects such as <a href="http://brookfieldhomes.ca/community/treetops/new-homes" target="_blank">Brookfield Homes Community</a>, <a href="http://www.scoutt.com" target="_blank">Scoutt</a>, and others. As a <strong>freelance artist</strong> she was bcontracted by a Microsoft partner to Design and Develop a CRM <a href="http://dev.portal.esidev.ca/" target="_blank">demo site</a> for potential clients, a student portal for non-profit organization Women Building Futures <em>(in progress)</em>, and a registration system for worldwide pro <a href="https://dev.nxlregistration.com/" target="_blank">Paintball</a> players. Core mentor for Ladies Learning Code. Currently the <strong>Technical Lead and Senior Mentor</strong> for start-up <a href="http://www.kirstendodd.com">PurposeSocial</a>, a Victoria based Web Agency and Junior Dev Accelorator.</p>  
+              <p>Kirsten worked as a Front End Web Developer for Toronto Web Agency <a href="http://www.climaxmedia.com" target="_blank">Climax Media</a>. She was lead <strong>Front-End Developer</strong> on the redesign of <a href="http://www.honda.ca" target="_blank">Honda Canada's</a> home and models pages.  She was also lead Front-End Developer on projects such as <a href="http://brookfieldhomes.ca/community/treetops/new-homes" target="_blank">Brookfield Homes Community</a>. As a <strong>freelancer</strong> she was contracted by a Microsoft partner to Design and Develop Sitefinity CRM solutions such as <a href="http://www.womenbuildingfutures.com" target="_blank">Women building Futures</a>. Currently the <strong>Technical and Creative Lead</strong> for start-up <a href="http://www.purposefive.com" target="_blank">Purposefive</a>, a Victoria based Web Agency.</p>  
             </div>
           </div>
           <div class="container-box type-1 how">
